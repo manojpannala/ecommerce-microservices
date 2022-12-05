@@ -1,2 +1,5 @@
 rootProject.name = 'ecommerce-microservices'
+include 'product-service'
+include 'order-service'
+include 'inventory-service'
 
