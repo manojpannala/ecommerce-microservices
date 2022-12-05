@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: "root"
+    url: jdbc:mysql://localhost:3306/order-service?useSSL=false&allowPublicKeyRetrieval=true
+    password: "root"
+    dialect: org.hibernate.dialect.MySQL8Dialect
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8081
