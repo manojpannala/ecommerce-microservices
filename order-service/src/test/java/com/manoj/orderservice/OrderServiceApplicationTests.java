@@ -1,6 +1,5 @@
 package com.manoj.orderservice;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.manoj.orderservice.dto.OrderLineItemsDto;
 import com.manoj.orderservice.dto.OrderRequest;

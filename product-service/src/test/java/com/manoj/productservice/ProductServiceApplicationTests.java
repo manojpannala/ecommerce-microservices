@@ -26,7 +26,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @AutoConfigureMockMvc
 class ProductServiceApplicationTests {
     @Container
-    static MongoDBContainer mongoDBContainer = new MongoDBContainer("mongo:5.0.14");
+    static MongoDBContainer mongoDBContainer = new MongoDBContainer("mongo:latest");
     @Autowired
     private MockMvc mockMvc;
     @Autowired
