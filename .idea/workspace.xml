@@ -138,7 +138,20 @@
       <recent name="C:\Users\manoj\Documents\Java_Projects\Microservices-CE\ecommerce-microservices\product-service" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.InventoryServiceApplicationTests.shouldReturnEmptyListWhenNoInventory">
+  <component name="RunManager" selected="Application.InventoryServiceApplication">
+    <configuration name="InventoryServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.manoj.inventoryservice.InventoryServiceApplication" />
+      <module name="ecommerce-microservices.inventory-service.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manoj.inventoryservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InventoryServiceApplicationTests.shouldCheckInventory" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -229,34 +242,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ecommerce-microservices [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InventoryServiceApplication" />
         <item itemvalue="Gradle.InventoryServiceApplicationTests.shouldReturnEmptyListWhenNoInventory" />
         <item itemvalue="Gradle.InventoryServiceApplicationTests.shouldCreateInventory" />
         <item itemvalue="Gradle.InventoryServiceApplicationTests.shouldCheckInventory" />
         <item itemvalue="Gradle.ecommerce-microservices [build]" />
-        <item itemvalue="Gradle.ecommerce-microservices [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670251702689</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add test cases">
+      <created>1670406063763</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670406063763</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
