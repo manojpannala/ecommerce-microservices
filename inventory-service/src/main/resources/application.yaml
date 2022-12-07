@@ -8,7 +8,7 @@ spring:
   jpa:
     database: mysql
     hibernate:
-      ddl-auto: update
+      ddl-auto: create-drop # later use liquibase
 
 server:
   port: 8082
