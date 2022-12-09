@@ -21,6 +21,10 @@ allprojects {
     version = '1.0.0-SNAPSHOT'
     sourceCompatibility = '11'
 
+    ext {
+        set('springCloudVersion', "2021.0.5")
+    }
+
     apply plugin: 'java'
     apply plugin: 'io.spring.dependency-management'
     apply plugin: 'java-library'
@@ -40,6 +44,9 @@ allprojects {
     dependencyManagement {
         imports {
             mavenBom SpringBootPlugin.BOM_COORDINATES
+        }
+        imports {
+            mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
         }
     }
 
