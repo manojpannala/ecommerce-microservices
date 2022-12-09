@@ -9,7 +9,8 @@ spring:
     database: mysql
     hibernate:
       ddl-auto: update
-
+  application:
+    name: order-service
 server:
   port: 8081
 

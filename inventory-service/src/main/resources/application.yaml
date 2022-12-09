@@ -9,9 +9,11 @@ spring:
     database: mysql
     hibernate:
       ddl-auto: create-drop # later use liquibase
+  application:
+    name: inventory-service
 
 server:
-  port: 8082
+  port: 0
 
 eureka:
   client:
