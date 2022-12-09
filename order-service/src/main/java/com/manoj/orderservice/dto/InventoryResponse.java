@@ -1,4 +1,4 @@
-package com.manoj.inventoryservice.dto;
+package com.manoj.orderservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

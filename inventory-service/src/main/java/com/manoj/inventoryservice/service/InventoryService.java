@@ -22,9 +22,8 @@ public class InventoryService {
         return inventoryRepository.findBySkuCodeIn(skuCode)
                 .stream()
                 .map(e -> InventoryResponse.builder()
-                        .id(e.getId())
                         .skuCode(e.getSkuCode())
-                        .quantity(e.getQuantity())
+                        .isInStock(e.getQuantity() > 0)
                         .build())
                 .collect(Collectors.toList());
     }
